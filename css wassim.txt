@@ -1,7 +1,4 @@
-.Done{
-text-decoration: line-through;
-}
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -14,16 +11,17 @@ body {
     rgba(48, 16, 255, 1) 0%,
     rgba(100, 115, 255, 1) 100%
   );
-  overflow:hidden;
+  overflow: hidden;
 }
-.App {
+.app {
   background: #161a2b;
   text-align: center;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 60%;
+  width: 40%;
   margin: 2.5% auto;
   height: 90vh;
   border-radius: 8px;
@@ -42,7 +40,7 @@ input {
   border-radius: 4px 0 0 4px;
   color: white;
 }
-.Add button {
+.add button {
   outline: none;
   border: none;
   padding: 16px;
